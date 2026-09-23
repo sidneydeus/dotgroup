@@ -1,0 +1,19 @@
+Bancos de dados são sistemas organizados para armazenar,
+gerenciar e recuperar informações de forma eficiente.
+
+Tipos principais:
+- Relacionais (SQL): PostgreSQL, MySQL, SQLite, Oracle
+  - Usam tabelas com linhas e colunas
+  - ACID: Atomicidade, Consistência, Isolamento, Durabilidade
+  - Linguagem SQL para consultas
+
+- Não-relacionais (NoSQL): MongoDB, Redis, Cassandra, DynamoDB
+  - Documentos, chave-valor, colunas largas, grafos
+  - Esquema flexível, escalabilidade horizontal
+  - BASE: Basicamente Disponível, Estado Suave, Eventualmente Consistente
+
+Conceitos importantes:
+- Índices para performance de consultas
+- Transações e controle de concorrência
+- Replicação e sharding para escalabilidade
+- Backup e recuperação de desastres

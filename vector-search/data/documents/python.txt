@@ -1,0 +1,17 @@
+Python é uma linguagem de programação de alto nível conhecida
+pela sintaxe simples e pela grande quantidade de bibliotecas
+disponíveis. É utilizada em desenvolvimento web, automação,
+ciência de dados e inteligência artificial.
+
+Principais características:
+- Tipagem dinâmica e forte
+- Interpretada e multiplataforma
+- Grande ecossistema de pacotes (PyPI)
+- Suporte a múltiplos paradigmas (orientado a objetos, funcional, procedural)
+- Gerenciamento automático de memória (garbage collector)
+
+Frameworks populares:
+- Django e Flask para desenvolvimento web
+- Pandas, NumPy, SciPy para ciência de dados
+- TensorFlow, PyTorch, scikit-learn para machine learning
+- FastAPI para APIs modernas e assíncronas

@@ -1,0 +1,24 @@
+Inteligência Artificial (IA) é a área da ciência da computação
+focada em criar sistemas capazes de simular inteligência humana.
+
+Subáreas principais:
+- Machine Learning (ML): algoritmos que aprendem com dados
+  - Supervisionado: classificação, regressão
+  - Não supervisionado: clustering, redução de dimensionalidade
+  - Reinforcement learning: agentes que aprendem por recompensa
+
+- Deep Learning: redes neurais profundas
+  - CNNs para visão computacional
+  - RNNs/Transformers para processamento de linguagem natural
+  - GANs para geração de dados
+
+- NLP (Processamento de Linguagem Natural): compreensão e geração de texto
+  - Tokenização, embedding, attention mechanism
+  - LLMs (Large Language Models): GPT, BERT, LLaMA
+
+Aplicações:
+- Visão computacional: detecção de objetos, reconhecimento facial
+- NLP: tradução, sumarização, chatbots, análise de sentimento
+- Sistemas de recomendação
+- Veículos autônomos
+- Diagnóstico médico

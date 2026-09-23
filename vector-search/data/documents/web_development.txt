@@ -1,0 +1,26 @@
+Desenvolvimento Web envolve a criação de aplicações que rodam
+em navegadores, divididas em frontend (cliente) e backend (servidor).
+
+Frontend:
+- HTML: estrutura semântica do conteúdo
+- CSS: estilização e layout (Flexbox, Grid, animações)
+- JavaScript: interatividade e lógica no navegador
+- Frameworks: React, Vue, Angular, Svelte
+- TypeScript: tipagem estática para JavaScript
+- Ferramentas: Vite, Webpack, ESLint, Prettier
+
+Backend:
+- APIs REST e GraphQL
+- Autenticação: JWT, OAuth2, sessions
+- Bancos de dados: PostgreSQL, MongoDB, Redis
+- Cache: Redis, Memcached
+- Mensageria: RabbitMQ, Kafka
+- Deploy: Docker, Kubernetes, serverless (Vercel, Netlify, AWS Lambda)
+
+Conceitos modernos:
+- SSR (Server-Side Rendering) e SSG (Static Site Generation)
+- Micro-frontends
+- Progressive Web Apps (PWA)
+- WebSockets para tempo real
+- CI/CD pipelines
+- Observabilidade: logs, métricas, tracing

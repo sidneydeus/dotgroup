@@ -1,0 +1,27 @@
+#!/bin/bash
+# Wrapper para busca local (usa venv)
+# Uso: ./search-local "termo de busca" [-k N]
+
+cd "$(dirname "$0")"
+
+if [ ! -d "venv" ]; then
+    echo "Venv não encontrado. Rode ./setup.sh primeiro"
+    exit 1
+fi
+
+# Carrega API key do .env
+if [ ! -f ".env" ]; then
+    echo "Erro: .env não encontrado. Copie .env.example para .env e adicione COHERE_API_KEY"
+    exit 1
+fi
+
+export COHERE_API_KEY=$(grep COHERE_API_KEY .env | cut -d= -f2)
+
+if [ -z "$COHERE_API_KEY" ]; then
+    echo "Erro: COHERE_API_KEY não configurada no .env"
+    exit 1
+fi
+
+# Ativa venv e roda com PYTHONPATH
+source venv/bin/activate
+PYTHONPATH=. python src/search.py "$@"

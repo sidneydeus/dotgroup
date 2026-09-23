@@ -1,0 +1,11 @@
+# Parte 01 - Carregamento de documentos
+pytest>=7.4.0
+
+# Parte 02 - Geração de embeddings
+cohere>=5.0.0
+python-dotenv>=1.0.0
+
+# Parte 03 - Vector Store
+faiss-cpu>=1.8.0
+
+# Parte 04+ adicionará: etc.

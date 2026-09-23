@@ -1,0 +1,13 @@
+#!/bin/bash
+# Wrapper para buscar sem docker compose direto
+# Uso: ./search "termo de busca" [-k N]
+
+cd "$(dirname "$0")"
+API_KEY=$(grep COHERE_API_KEY .env | cut -d= -f2)
+
+if [ -z "$API_KEY" ]; then
+    echo "Erro: COHERE_API_KEY não encontrada no .env"
+    exit 1
+fi
+
+docker compose run --rm -e COHERE_API_KEY="$API_KEY" app python src/search.py "$@"

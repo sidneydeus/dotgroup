@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+      - ./storage:/app/storage
+    environment:
+      - PYTHONPATH=/app
+      - COHERE_API_KEY=${COHERE_API_KEY}

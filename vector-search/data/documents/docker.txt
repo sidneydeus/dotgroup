@@ -1,0 +1,23 @@
+Docker permite empacotar aplicações e suas dependências em
+containers. Containers facilitam a criação de ambientes
+reprodutíveis para desenvolvimento, testes e produção.
+
+Conceitos fundamentais:
+- Imagem: template somente leitura com código, runtime, bibliotecas
+- Container: instância executável de uma imagem
+- Dockerfile: instruções para construir uma imagem
+- Registry: repositório de imagens (Docker Hub, GitHub Container Registry)
+- Volume: persistência de dados fora do ciclo de vida do container
+- Network: comunicação entre containers
+
+Benefícios:
+- Isolamento de processos e dependências
+- Portabilidade: "build once, run anywhere"
+- Versionamento de infraestrutura como código
+- Integração com CI/CD
+- Orquestração com Docker Compose, Kubernetes, Swarm
+
+Comandos essenciais:
+- docker build, docker run, docker ps
+- docker-compose up, docker-compose down
+- docker push, docker pull
