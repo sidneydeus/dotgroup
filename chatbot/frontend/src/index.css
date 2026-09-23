@@ -1,0 +1,98 @@
+:root {
+  --text: #1f2937;
+  --text-light: #6b7280;
+  --bg: #f9fafb;
+  --bg-white: #ffffff;
+  --border: #e5e7eb;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-bg: #eff6ff;
+  --assistant-bg: #ffffff;
+  --user-bg: #2563eb;
+  --user-text: #ffffff;
+  --code-bg: #1e293b;
+  --code-text: #e2e8f0;
+  --error-bg: #fef2f2;
+  --error-text: #dc2626;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --transition: 0.2s ease;
+
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #f3f4f6;
+    --text-light: #9ca3af;
+    --bg: #111827;
+    --bg-white: #1f2937;
+    --border: #374151;
+    --primary: #3b82f6;
+    --primary-hover: #60a5fa;
+    --primary-bg: #1e3a5f;
+    --assistant-bg: #1f2937;
+    --user-bg: #3b82f6;
+    --user-text: #ffffff;
+    --code-bg: #0f172a;
+    --code-text: #e2e8f0;
+    --error-bg: #450a0a;
+    --error-text: #fca5a5;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+pre {
+  margin: 0;
+  overflow-x: auto;
+}
